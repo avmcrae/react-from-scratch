@@ -5,6 +5,9 @@
   "repository": "git@github.com:avmcrae/react-from-scratch.git",
   "author": "avmcrae <avalonmcrae@gmail.com>",
   "license": "MIT",
+  "scripts": {
+  	"build": "babel src/ --out-dir dist/"	
+  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.4.0"
