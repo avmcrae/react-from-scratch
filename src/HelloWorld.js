@@ -1,3 +1,3 @@
 const HelloWorld = ({name}) => (
-	React.createElement("div", {}, `Hello ${name}`)
+	<div>Hello {name}</div>
 );

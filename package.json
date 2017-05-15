@@ -6,10 +6,11 @@
   "author": "avmcrae <avalonmcrae@gmail.com>",
   "license": "MIT",
   "scripts": {
-  	"build": "babel src/ --out-dir dist/"	
+    "build": "babel src/ --out-dir dist/"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.4.0"
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1"
   }
 }
